@@ -69,7 +69,13 @@ function Projects() {
                 />
               </div>
             </div> */}
-          <h2 className="new-projects">New projects coming soon.. 🤠</h2>
+          <h2 className="new-projects">
+            Dear Recruiters/Team Leads,
+            <br />I would like to inform you that projects are currently being
+            deployed. However, they are still undergoing final adjustments and
+            fine-tuning before being finalized. Your understanding and patience
+            during this phase are greatly appreciated... 🤠
+          </h2>
         </div>
       </section>
     </React.Fragment>
