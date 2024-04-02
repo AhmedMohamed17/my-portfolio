@@ -74,8 +74,12 @@ function Projects() {
             <br />I would like to inform you that the projects are currently
             being deployed. However, they are still undergoing final adjustments
             and fine-tuning before being finalized. You can now access our
-            project links on GitHub to view and track them. Your understanding
-            and patience during this phase are greatly appreciated.... 🤠
+            project links on{" "}
+            <a href="https://github.com/AhmedMohamed17" target="_blank">
+              GitHub
+            </a>{" "}
+            to view and track them. Your understanding and patience during this
+            phase are greatly appreciated.... 🤠
           </h2>
         </div>
       </section>

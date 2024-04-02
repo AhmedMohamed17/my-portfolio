@@ -35,7 +35,7 @@ function AboutMe() {
                 <br />
                 <br />
                 Recipient of the{" "}
-                <a href="https://iti.gov.eg/">
+                <a href="https://iti.gov.eg/" target="_blank">
                   Information Technology Institute (ITI){" "}
                 </a>
                 scholarship, commencing in July 2023 and graduating in November
