@@ -877,3 +877,95 @@
     text-decoration: none;
   }
   
+  .mainprojects {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   flex-wrap: wrap;
+   justify-content: center;
+  
+  }
+  .mainprojects img{
+    border-radius: 10px;
+    width: 100%;
+   
+    
+
+  }
+  .maindiv-one{
+    padding: 1.7rem;
+    /* width: 45%; */
+    margin-right: 0.3rem;
+  
+  }
+  .maindiv-two{
+    /* width: 45%; */
+    padding: 1.7rem;
+    margin-left: 0.3rem;
+
+
+  }
+  .maindiv-two h2 {
+   text-align: center;
+   margin-top: 1.6rem;
+   font-size: 2.5rem;
+   font-weight: 900;
+  }
+  .maindiv-two h3{
+    margin-top: 1.6rem;
+    margin-bottom: 0.1rem;
+
+    text-align: center;
+font-size: 1.7rem;
+  }
+
+  .div-tech{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 0.1rem;
+  }
+  .div-tech h2{
+    margin-right: 1.7rem;
+    font-size: 1.7rem;
+  }
+  .div-tech h3{
+    margin-left: 1.7rem;
+    
+  }
+
+  .links-about-projects{
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 2.5rem;
+
+  }
+  .links-about-projects img{
+    vertical-align: middle;
+    width: 3rem;
+    margin-left: 0.7rem;
+  }
+  .links-about-projects span  {
+   font-size: 1.7rem;
+   font-weight: 900;
+
+  }
+  .span-one{
+    margin-right: 1rem;
+  }
+  @media screen and (max-width: 765px) {
+    .mainprojects {
+      flex-direction: column; /* Switch back to row layout for larger screens */
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    .maindiv-one,
+    .maindiv-two {
+      width: 100%; /* Adjust width for larger screens */
+      margin: 0.5%; /* Add some margin between elements */
+    }
+  }

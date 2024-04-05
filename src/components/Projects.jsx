@@ -1,8 +1,9 @@
-// import Gymate from "../images/gymate-home.webp";
-// import Raouf from "../images/ecom.webp";
-// import ProBox from "./ProBox";
-// import CarRental from "../images/car-rental-full.webp";
-// import CoinDom from "../images/coindom-full.png";
+import ProBox from "./ProBox";
+import ahmed from "../images/ahmed.jpg";
+import todo from "../images/todo.jpg";
+import twitter from "../images/twitter.jpg";
+import movieapp from "../images/movieapp.jpg";
+
 import React from "react";
 
 function Projects() {
@@ -10,77 +11,61 @@ function Projects() {
     <React.Fragment>
       <section id="projects" className="project">
         <div className="container">
-          {/* <div className="project-content">
-              <p>portfolio</p>
-              <h3>Each project is a unique piece of development 🧩</h3>
-              <div className="projects-grid">
-                <ProBox
-                  title="Car Rental"
-                  img={CarRental}
-                  date="(February 2023)"
-                  description="A car rental website is an online platform that allows users to rent cars for personal or business use. The website provides an interface for searching, comparing, and reserving cars."
-                  techno1="React"
-                  techno2="SCSS"
-                  code="https://github.com/stefvndev/car-rental"
-                  demo="https://car-rental-ten.vercel.app/"
-                  scrollY="-83%"
-                  icon="🚗"
-                />
-  
-                <ProBox
-                  title="Coindom"
-                  date="(February 2023)"
-                  img={CoinDom}
-                  description="Coindom is a crypto app that allows users to search for information about various cryptocurrencies in real-time."
-                  techno1="React"
-                  techno2="SCSS"
-                  code="https://github.com/stefvndev/coindom-crypto"
-                  demo="https://coindom-crypto-search.vercel.app/"
-                  scrollY="-74%"
-                  icon="🪙"
-                  cName="reversed-proj"
-                />
-  
-                <ProBox
-                  title="Gymate"
-                  date="(January 2023)"
-                  img={Gymate}
-                  description="A gym website is a comprehensive resource for fitness information, class schedules, membership options, and tools to help users achieve their fitness goals."
-                  techno1="React"
-                  techno2="Tailwind CSS"
-                  code="https://github.com/stefvndev/Gymate"
-                  demo="https://gymate-iota.vercel.app/"
-                  scrollY="-89%"
-                  icon="🏋️"
-                />
-  
-                <ProBox
-                  title="Ecommerce"
-                  date="(December 2022)"
-                  img={Raouf}
-                  description="With a focus on simplicity and clean design, this store prioritize user experience, making it easy for customers to find and purchase the products they need."
-                  techno1="React"
-                  techno2="Vanila CSS"
-                  code="https://github.com/stefvndev/Minimalist-E-commerce"
-                  demo="https://minimalist-e-commerce.vercel.app/"
-                  scrollY="-71%"
-                  icon="🛒"
-                  cName="reversed-proj"
-                />
-              </div>
-            </div> */}
-          <h2 className="new-projects">
-            Dear Recruiters/Team Leads,
-            <br />I would like to inform you that the projects are currently
-            being deployed. However, they are still undergoing final adjustments
-            and fine-tuning before being finalized. You can now access our
-            project links on{" "}
-            <a href="https://github.com/AhmedMohamed17" target="_blank">
-              GitHub
-            </a>{" "}
-            to view and track them. Your understanding and patience during this
-            phase are greatly appreciated.... 🤠
-          </h2>
+          <div className="project-content">
+            <p>Projects</p>
+            <h3>Each project is a unique piece of development 🧩</h3>
+            <div className="projects-grid">
+              <ProBox
+                title="Car Rental"
+                img={ahmed}
+                description="A car rental website is an online platform that allows users to rent cars for personal or business use. The website provides an interface for searching, comparing, and reserving cars."
+                techno1="React"
+                techno2="SCSS"
+                code="https://github.com/stefvndev/car-rental"
+                demo="https://car-rental-ten.vercel.app/"
+              />
+
+              <ProBox
+                title="Movie-App"
+                img={movieapp}
+                description="Introducing our latest project: a website showcasing the newest movies and TV series. Dive into a world of entertainment where you can discover the hottest releases, explore detailed information about each title."
+                techno1="Vanilla JS"
+                techno2="CSS"
+                code="https://github.com/AhmedMohamed17/Movie-App"
+                demo="https://ahmedmohamed17.github.io/Movie-App/"
+              />
+
+              <ProBox
+                title="Movie-App"
+                img={movieapp}
+                description="Introducing our latest project: a website showcasing the newest movies and TV series. Dive into a world of entertainment where you can discover the hottest releases, explore detailed information about each title."
+                techno1="Vanilla JS"
+                techno2="CSS"
+                code="https://github.com/AhmedMohamed17/Movie-App"
+                demo="https://ahmedmohamed17.github.io/Movie-App/"
+              />
+
+              <ProBox
+                title="Twitter clone"
+                img={twitter}
+                description="Introducing Fake Twitter Project: A simulated social media platform designed to mimic the functionality and user experience of the popular microblogging site."
+                techno1="Vanilla JS"
+                techno2="CSS"
+                code="https://github.com/AhmedMohamed17/Twitter"
+                demo="https://fake-twitter-ten.vercel.app/"
+              />
+
+              <ProBox
+                title="TO-DO List"
+                img={todo}
+                description="Here's a simple To-Do List app written in React to help you manage your tasks."
+                techno1="React"
+                techno2="Hooks"
+                code="https://github.com/AhmedMohamed17/To-Do-list"
+                demo="https://delicate-crisp-9ec82b.netlify.app/"
+              />
+            </div>
+          </div>
         </div>
       </section>
     </React.Fragment>
