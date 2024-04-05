@@ -4,7 +4,7 @@ import twitter from "../images/twitter.jpg";
 import movieapp from "../images/movieapp.jpg";
 import inta from "../images/insta.jpg";
 import lego from "../images/lego.jpg";
-
+import grad from "../images/graduation.png";
 import React from "react";
 
 function Projects() {
@@ -17,16 +17,14 @@ function Projects() {
             <h3>Each project is a unique piece of development 🧩</h3>
             <div className="projects-grid">
               <ProBox
-                title="Blog Site"
-                img={lego}
-                description="a MERN stack-powered blog site inspired by Lego. Immerse yourself in a world of creativity and imagination where you can explore captivating articles.
-                (Please note that this website is still under construction)"
+                title="Dental Lab"
+                img={grad}
+                description="The web application serves as a liaison among dentists, hospitals, and dental labs, offering streamlined communication and order management between dentists and labs, alongside an Advanced Resource Planning (ARP) system tailored for dental labs, ultimately simplifying ordering processes and enhancing communication between all involved parties."
                 techno1="MERN"
                 techno2="STACK"
-                code="https://github.com/AhmedMohamed17/Blog-App"
-                demo=""
+                code=""
+                demo="https://dentech-seven.vercel.app/jobs"
               />
-
               <ProBox
                 title="Instagram Clone"
                 img={inta}
@@ -62,6 +60,17 @@ function Projects() {
                 techno2="CSS"
                 code="https://github.com/AhmedMohamed17/Movie-App"
                 demo="https://ahmedmohamed17.github.io/Movie-App/"
+              />
+
+              <ProBox
+                title="Blog Site"
+                img={lego}
+                description="a MERN stack-powered blog site inspired by Lego. Immerse yourself in a world of creativity and imagination where you can explore captivating articles.
+                (Please note that this website is still under construction)"
+                techno1="MERN"
+                techno2="STACK"
+                code="https://github.com/AhmedMohamed17/Blog-App"
+                demo=""
               />
             </div>
           </div>
