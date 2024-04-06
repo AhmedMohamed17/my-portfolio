@@ -22,7 +22,7 @@ function Projects() {
                 description="The web application serves as a liaison among dentists, hospitals, and dental labs, offering streamlined communication and order management between dentists and labs, alongside an Advanced Resource Planning (ARP) system tailored for dental labs, ultimately simplifying ordering processes and enhancing communication between all involved parties."
                 techno1="MERN"
                 techno2="STACK"
-                code=""
+                code="https://github.com/AhmedMohamed17/Dentail-Lab"
                 demo="https://dentech-seven.vercel.app/jobs"
               />
               <ProBox
